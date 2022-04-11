@@ -1,0 +1,4 @@
+/* Add css to multiple class without write same class again & again */
+:is(thead, tbody) tr :is(th, td) {
+  background: red !important;
+}
